@@ -20,6 +20,7 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Rating (scale of 1-5)", name: "rating", widget: "number"}
   - name: "pages"
     label: "Pages"
+    create: true
     files:
       - file: "site/content/products.md"
         label: "Products Page"
